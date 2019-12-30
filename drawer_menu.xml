@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Notice Zone">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_item_show_message"
+                    android:icon="@drawable/ic_message"
+                    android:title="Show Message" />
+                <item
+                    android:id="@+id/nav_item_show_image"
+                    android:icon="@drawable/ic_image"
+                    android:title="Show Image" />
+                <item
+                    android:id="@+id/nav_item_show_document"
+                    android:icon="@drawable/ic_document"
+                    android:title="Show Document" />
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="Admin Extras">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_item_send_message"
+                    android:icon="@drawable/ic_message"
+                    android:title="Send Message" />
+                <item
+                    android:id="@+id/nav_item_send_image"
+                    android:icon="@drawable/ic_image"
+                    android:title="Send Image" />
+                <item
+                    android:id="@+id/nav_item_send_document"
+                    android:icon="@drawable/ic_document"
+                    android:title="Send document" />
+                <item
+                    android:id="@+id/nav_item_add_admin"
+                    android:icon="@drawable/ic_add_admin"
+                    android:title="Add Admin" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
