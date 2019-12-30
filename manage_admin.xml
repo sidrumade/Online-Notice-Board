@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar">
+
+    <EditText
+        android:id="@+id/ET_UID"
+        android:hint="Enter UID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/activity_background"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/add_admin_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_add_admin"
+            android:background="@color/transparent"
+            android:clickable="true"/>
+        <ImageButton
+            android:id="@+id/remove_admin_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:src="@drawable/ic_person_black" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
