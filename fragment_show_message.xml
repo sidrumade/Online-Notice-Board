@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/refreshbutton"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="350dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:onClick="Refresh"
+        app:backgroundTint="#4CAF50"
+        android:src="@drawable/refresh1"
+        android:layout_marginRight="5dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
